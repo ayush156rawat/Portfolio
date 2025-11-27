@@ -21,8 +21,8 @@ import {
     shopify,
     carrent,
     jobit,
-    tripguide,
     threejs,
+    tripguide,
   } from "../assets";
   
   export const navLinks = [
@@ -46,7 +46,7 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "NestJS Developer",
       icon: mobile,
     },
     {
@@ -114,8 +114,8 @@ import {
     {
       title: "Python Developer",
       company_name: "Onlei Technology",
-      icon: shopify,
-      iconBg: "#383E56",
+      icon: meta,
+      iconBg: "#E6DEDD",
       date: "Jan 2021 - feb 2022",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
@@ -127,7 +127,7 @@ import {
     {
       title: "React.js Developer",
       company_name: "Cognizant",
-      icon: starbucks,
+      icon: meta,
       iconBg: "#383E56",
       date: "April 2023 - july 2023",
       points: [
@@ -142,39 +142,50 @@ import {
       company_name: "Skill Academy , Textbook",
       icon: meta,
       iconBg: "#E6DEDD",
-      date: "J  une 2023 - Present",
+      date: "October 2023 - November 2023",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
+    {
+    title: "Junior Full Stack Developer",
+    company_name: "Xcrino Business Solutions",
+    icon: meta,
+    iconBg: "#2A2F4F",
+    date: "Apr 2024 - Nov 2024",
+    points: [
+      "Developed end-to-end features using MERN, Next.js, and NestJS.",
+      "Designed responsive UI screens and built reusable components.",
+      "Implemented APIs, authentication, roles & permissions, and database models.",
+      "Improved code quality, debugging speed, and overall performance of the product.",
+      "Collaborated closely with the team to deliver production-ready modules on time.",
+    ],
+  },
   ];
   
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "Ayush genuinely cares about client success — rare to find.",
+      name: "Mr.Nitesh Sharma",
+      designation: "Digital Head",
+      company: "Nykaa",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "Ayush brings both skill and sincerity to every project.",
+      name: " Ms.Tehreem",
+      designation: "Human Resource Manager",
+      company: "Xcrino Business Solutions",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "Working with Ayush feels like having a partner, not just a developer.",
+      name: "Mr.Monis Siddiqui",
+      designation: "Senior Developer",
+      company: "Xcrino Business Solutions",
     },
   ];
   
@@ -188,12 +199,12 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "HTML and CSS",
+          name: "HTML, CSS and JavaScript", 
           color: "pink-text-gradient",
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/ayush156rawat/Simon-game",
+      source_code_link: "https://ayush-simon-game.netlify.app/",
     },
     {
       name: "GPT-3 Frontend",
@@ -213,28 +224,24 @@ import {
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/ayush156rawat/front-react/tree/main/src",
+      source_code_link: "https://reactgpt4.netlify.app/",
     },
     {
-      name: "Trip Guide",
+      name: "Task Management",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A comprehensive task management platform that allows users to create, assign, and track tasks, as well as collaborate with team members.",
       tags: [
         {
-          name: "nextjs",
+          name: "react.js",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
+          name: "Tailwind CSS",
           color: "pink-text-gradient",
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/ayush156rawat/frontend/tree/main",
+      source_code_link: "https://tasksetu-v1.netlify.app/",
     },
   ];
   
